@@ -1,0 +1,358 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.container {
+    width:1345px;
+}
+
+.header {
+    border-bottom:solid 1px rgb(182, 179, 179);
+    padding-bottom:25px;
+    padding-right:70px;
+    margin-bottom:50px;
+    background-color:white;
+    position:fixed;
+    z-index: 10;
+
+}
+.site-logo {
+    float:left;
+}
+.site-logo img {
+    width:150px;
+    height:35px;
+    padding:20px;
+}
+
+.header-nav li {
+    color:black;
+    list-style: none;   
+    font-size:13px;
+    margin-top:40px;
+    text-decoration:none;
+    display:inline-block;
+    vertical-align: bottom;
+}
+
+.header-nav {
+    margin-left:200px;
+    display:flex;
+}
+
+.nav01 a {
+    margin-left:20px;
+}
+
+.nav01 a:hover{
+    border-bottom:solid 5px black;
+    transition:all 0.3s;
+}
+
+.nav02 {
+    margin-top:30px;
+    margin-left:450px;
+    display:flex;
+}
+
+.nav02 p {
+    font-size:3px;
+}
+
+.nav02 a {
+    color:black;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+.nav02 i {
+    padding-left:8px;
+    width:14px;
+}
+
+.nav02 a:hover {
+    opacity:0.6;
+    transition:all 0.3s;
+}
+
+input {
+    height:25px;
+    font-size:10px;
+}
+
+.serch-form {
+    margin-left:20px;
+    margin-top:25px;
+}
+
+.sarch-btn {
+    background-color:rgb(41, 40, 40);
+    color:#fcfcfc;
+}
+
+.top-image img {
+    width:33%;
+    height:400px;
+}
+
+.top-image img:hover{
+    opacity:0.6;
+    transition:all 0.3s;
+}
+
+.top-image {
+    margin:0px 50px;
+    padding-top:30px;
+}
+
+.btn {
+    border:solid 2px black;
+    width:300px;
+    text-align: center;
+    font-size:12px;
+    margin-top:30px;
+    margin-left:520px;
+    
+}
+
+.btn a{
+    color:black;
+    display:block;    
+    text-decoration:none;
+    padding:10px 50px;
+    box-sizing:border-box;
+}
+
+.btn:hover {
+    background-color: #000;
+    transition:all 0.2s;
+}
+
+.btn a:hover{
+    color:white;
+}
+
+.icon {
+    margin-left:330px;
+    display:flex;
+    text-align: center;
+}
+
+.nav03 {
+    border:solid 3px white;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    
+    margin-top:100px;
+    background-color:rgb(85, 85, 85);
+    margin-left:50px;
+    text-align:center;
+}
+
+.nav03 i {
+    color:rgb(255, 255, 255);
+}
+
+.nav03 li {
+    list-style:none;
+}
+
+.nav03 p {
+    font-size:13px;
+    margin-top:8px;
+    font-family:"Meiryo UI";
+    color:white;
+}
+
+.nav03 a {
+    color:black;
+    text-decoration:none;
+    display:block;
+    padding-top:20px;
+}
+
+.new-item {
+    margin-top:50px;
+    text-align:center;
+}
+
+.new-item h2 {
+    font-size:23px;
+}
+
+.new-item-image {
+    display:flex;
+    margin-left:95px;
+    margin-top:40px;
+}
+.new-item-image img {
+    width:160px;
+    height:160px;
+    margin-right:5px;
+}
+
+.new-item-image p {
+    font-size:5px;
+}
+
+.new-item-image a{
+    text-decoration:none;
+    color:black;
+}
+
+.new-item-image a:hover {
+    opacity:0.7;
+    transition:all 0.3s;
+}
+
+.trend {
+    margin-top:80px;
+    text-align: center;
+}
+.trend h2 {
+    font-size:23px;
+    
+}
+
+.banner {
+    text-align:center;
+    margin-top:40px;
+    
+}
+
+.banner img{
+    width:250px;
+    height:150px;
+    margin-right:30px;
+}
+
+.banner a{
+    margin-top:40px;
+}
+.banner img:hover {
+    opacity:0.7;
+    transition:all 0.3s;
+}
+
+.footer {
+    background-color:black;
+    margin-top:40px;
+    padding-top:40px;
+    padding-right:30px;
+    text-align: right;
+    height:80px;
+}
+
+.footer p {
+    color:white;
+    font-size:13px;
+    line-height:20px;
+    margin-right:10px;
+    display:inline-block;
+}
+
+.footer p:hover {
+    border-bottom:solid 1px white;
+    opacity:0.6;
+    transition:all 0.3s;
+}
